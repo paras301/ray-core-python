@@ -29,7 +29,7 @@ if __name__ == "__main__":
     # Define range
     start = 1
     end = 20000000 # Finding primes between 1 and 20 million
-    num_splits = os.cpu_count() - 1  # Number of splits (parallel tasks)
+    num_splits = os.cpu_count()  # Number of splits (parallel tasks)
 
     # Split the range into smaller chunks for parallel processing
     range_splits = [(i, i + (end - start) // num_splits) for i in range(start, end, (end - start) // num_splits)]

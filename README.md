@@ -1,2 +1,2 @@
 # ray-core-python
-Examples for using Ray Core libs in Python
+Read the full story at - https://paras301.medium.com/python-distributed-computing-with-ray-0f1d9487acdc
